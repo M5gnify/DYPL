@@ -1,17 +1,13 @@
-import sys
 import spotipy
-import spotipy.util as util
 
-token = "BQA2mIIhjSigxdujUfVFHXySVeIFTTtRqIzjUD2NRTvMCDU7UdQQJslm3WtLZd_WsTTfZfSm983vIEPKRhaS3FD67QJoubBc5QeEiiNV0PM3bj1fwPfSGNLVSzgAj8lOyrSigog2fo8sm1HUrc9dwC7QUTFxjwlK4foeOUFvNh7B5qAAhcBQlCpGrpU1FD8zjv-dvR1UDE5lRdU2fFGKR4XP4K1P9HsGi1eannyhDRVkL1KmDYWgJvUvKx8Q"
+username = "masterjonis"
+token = "BQDA-40ApEBxiGhnrzJrJ7kUKaOi0xG3LEYd3ZlyO2NeN70YaBk8U-FEGaFIQqx_lQtIEINxJoT-hbres9DbwQ8IKTww0u7yV2DGUtNQOmT7Goz8iD7EfokYpAfvwv8NuN675Nzj1Nz34DVULm7eB549Y15RxKRcZeybyHgy7-e76DFGNPFP7AGYpvIgvTej_Ue-CT-4B399YIBvvt9CbS9D85EvvZGATygGpU1KZaJnzflVcn5IYqVnobwM"
 
-if token:
-    sp = spotipy.Spotify(auth=token)
-    results = sp.user_playlists("masterjonis")
-    for playlist in results['items']:
-        #print sp.user_playlist_tracks("masterjonis", playlist["id"])
-        print playlist["name"], ":"
-        for track in sp.user_playlist_tracks("masterjonis", playlist['id'])['items']:
-            print track["track"]
-        print "\n"
-else:
-    print "Can't get token"
+sp = spotipy.Spotify(auth=token)
+results = sp.user_playlists(username)
+
+for playlist in results['items']:
+    print playlist["name"], ":"
+    for trackItem in sp.user_playlist_tracks("masterjonis", playlist['id'])['items']:
+        print trackItem["track"]
+    print
