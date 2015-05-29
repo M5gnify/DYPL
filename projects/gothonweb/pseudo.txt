@@ -1,23 +1,24 @@
-# declare a dict to store all songs that has duplicates. key is song. and value is a dict where key is
-# the playlist which the song is present in and value is the number of times the song is present in that playlist
-duplicates = {song : {playlist : count, ...}, ...}
+# declare a dict to store all tracks that has duplicates. key is track. and value is a dict where key is
+# the playlist which the track is present in and value is the number of times the track is present in that playlist
+duplicates = 
+	{(track.name, track.artist) : {playlist : count, ...}, ...} # example of what it contains
 
-# for each song in each playlist, add in to the duplicates dict if not already present. if present
+# for each track in each playlist, add in to the duplicates dict if not already present. if present
 # add the playlist to it's dict of playlists. if the playlist is present in there, increment it's count
 # by 1. otherwise, just add it with the count 1.
 for playlist in playlists
-    for song in playlist
-        if song in duplicates
-            songPlaylists = duplicates[song]
-            if playlist in songPlaylists
-                songPlaylists[playlist] += 1
+    for track in playlist
+        if track in duplicates
+            trackPlaylists = duplicates[track]
+            if playlist in trackPlaylists
+                trackPlaylists[playlist] += 1
             else
-                songPlaylists[playlist] = 1
+                trackPlaylists[playlist] = 1
         else
-            duplicates[song] = {playlist : 1}
+            duplicates[track] = {playlist : 1}
 
 # print all duplicates
-for song in duplicates
-    print song.name, song.artist, " - Total number of duplicates: ", len(duplicates[song])
-    for playlist, count in duplicates[song].iteritems() 	# iteritems() lets you iterate over key value pairs
+for track in duplicates
+    print track[0], track[1], " - Total number of duplicates: ", len(duplicates[track])
+    for playlist, count in duplicates[track].iteritems() 	# iteritems() lets you iterate over key value pairs
         print playlist, ": count:", count
