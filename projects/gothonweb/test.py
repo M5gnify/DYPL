@@ -2,43 +2,45 @@
 import spotipy
 
 username = "masterjonis"
-token = "BQCKwvTlCWz02PLDXvMPnqWzblHmegE5jYh1XtKYPumU4YNtu0eCR4bIxbQo4uUXIAx3wk85ujxpwBhcVvN0MLaQikOTf_9N86ADqbl8sxp0XSy8JyTIDCDet-LZPqvhW7vsSAYdvwR9ti3J3JdOojmsehrdssrgS0NSisfyPtbwDGvDaMfx9GeXPIMXJvSXelQkqCpXOInyW0mHvAKEOOenzmOhiIKhk05yUrrkU7YCBDKxvhRSheGtKQwCbok5rsXf"
+token = "BQBMqwyk5d9G-Qzhf2zIjqfGpYCsPTJjNvMZ4aCIwRx811F4_eu91s09H6vHxaMCBoBJAHXpbPLZzf8UJUy24ZS320ZTQ-kJO-qrFL6zPhCMR-pbNEnkGNHP4Cg6124u_gSq949fIMxv6AEnHouX4VYC-1Q3KVbkzoYyjQaBIaaSG5VoPrLt13TjxNJttAJnFOGDA0VvFYhwZiTIkRMEIhUTe81rPXam-yemH0SbWQuYwPMVfZ8sXydfNL97UsbgOPvA"
 
 sp = spotipy.Spotify(auth=token)
 results = sp.user_playlists(username)
 
-duplicates = {}
+songs = {}
 
-for playlist in results['items']:
+for index, playlist in list(enumerate(results['items'])):
 	playlist_name = str(playlist['name'])
-	for trackItem in sp.user_playlist_tracks(username, 	playlist['id'])['items']:
+	for trackItem in sp.user_playlist_tracks(username, playlist['id'])['items']:
 		#print trackItem["track"]
 		key = (str(trackItem["track"]["name"]), str( trackItem["track"]["artists"][0]["name"]))
-		if duplicates.has_key(key):
-			trackPlaylists = duplicates[key]
+		if songs.has_key(key):
+			trackPlaylists = songs[key]['playlists']
 			if trackPlaylists.has_key(playlist_name): 
-				duplicates[key][playlist_name] += 1
+				songs[key]['playlists'][playlist_name].append(index)
 			else:
-				duplicates[key][playlist_name] = 1
+				songs[key]['playlists'][playlist_name] = [index]
 		else:
-			duplicates[key] = {playlist_name : 1}
+			songs[key] = {'playlists' : {playlist_name : [index]}, 'uri' : trackItem['track']['uri']}
+duplicates = {}
 while True:
 	i = 1
 	j = 1
 
-	for track in duplicates:
+	for track in songs:
 		totalCount = 0
-		for count in duplicates[track].itervalues():
-			totalCount += count
+		for count in songs[track]['playlists'].itervalues():
+			totalCount += len(count)
 		if not totalCount > 1:
 			continue
 		print i, track[0], "by", track[1], "Total count:", totalCount
-		for playlist, count in duplicates[track].iteritems():
-			if len(duplicates[track]) > 1 or duplicates[track][playlist] > 1:
-				print '  ', j, playlist, "count:", count, "(Remove all but one)"
-				j += 1
-				print '  ', j, playlist, "count:", count, "(Remove all)"
-				j += 1
+		duplicates[i] = {'track_name' : track[0], 'artist' : track[1], 'playlists' : {}, 'uri' : songs[track]['uri']}
+		for playlist, count in songs[track]['playlists'].iteritems():
+			duplicates[i]['playlists'][playlist] = songs[track]['playlists'][playlist]
+			print '  ', j, playlist, "count:", len(count), "(Remove all but one)"
+			j += 1
+			print '  ', j, playlist, "count:", len(count), "(Remove all)"
+			j += 1
 		print
 		j = 1
 		i += 1
@@ -46,4 +48,25 @@ while True:
 	
 	if input.strip == "exit":
 		break
-	if input.strip ==
+	args = input.strip.split
+	i = ""
+	j = ""
+	
+	tracks_list = []
+	for playlists, uri in songs.itervalues():
+		for playlist in playlists:
+			tracks_list.append({'uri' : uri, 'positions' : indexes})
+	
+	#for str in args:
+	#	try:
+	#		i = int(str[0])
+	#		j = int(str[2])
+	#	except:
+	#		continue
+	#	
+	#	if i % 2 == 0:
+	#		
+	#	else:
+			
+		
+	
