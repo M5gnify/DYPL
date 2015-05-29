@@ -52,21 +52,26 @@ while True:
 	i = ""
 	j = ""
 	
-	tracks_list = []
-	for playlists, uri in songs.itervalues():
-		for playlist in playlists:
-			tracks_list.append({'uri' : uri, 'positions' : indexes})
+	for str in args:
+		try:
+			i = int(str[0])
+			j = int(str[2])
+		except:
+			continue
 	
-	#for str in args:
-	#	try:
-	#		i = int(str[0])
-	#		j = int(str[2])
-	#	except:
-	#		continue
-	#	
-	#	if i % 2 == 0:
-	#		
-	#	else:
-			
-		
+	tracks_list = {}
+	for playlists, uri in songs.itervalues():
+		for playlist, indexes in playlists:
+			if not tracks_list.has_key(playlist):
+				tracks_list[playlist] = {uri : indexes}
+			else
+				tracks_list[playlist][uri].append(indexes)
+				
+	if i % 2 == 0:
+		sp.user_playlist_remove_all_occurrences_of_tracks(username, playlist, value.keys())
+	else:
+		tracks = []
+		for uri, indexes in value
+			tracks.append({"uri": uri, "positions": indexes})
+		sp.user_playlist_remove_specific_occurrences_of_tracks(username, playlist, tracks)
 	
