@@ -1,0 +1,41 @@
+what we need: track name, track artist, track uri, playlist id, playlist name, nr of occurences, track position
+
+# first variant
+songs = 
+	{
+		{
+			"track name" : trackName,
+			"track artists" :
+			[
+				
+			]
+		} : 
+		{
+			{
+				"playlist id" : id, 
+				"playlist name" : name
+			} :
+			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, ...
+			], ...
+		}
+	}
+
+# second variant (current one)
+songs = 
+	{
+		(trackName, []) : 
+		{
+			(playlistId, playlistName) :
+			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, ...
+			], ...
+		}
+	}
+	

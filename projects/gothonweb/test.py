@@ -9,19 +9,19 @@ results = sp.user_playlists(username)
 
 songs = {}
 
-for index, playlist in list(enumerate(results['items'])):
-	playlist_name = str(playlist['name'])
-	for trackItem in sp.user_playlist_tracks(username, playlist['id'])['items']:
+for index, playlist in list(enumerate(results["items"])):
+	playlist_name = str(playlist["name"])
+	for trackItem in sp.user_playlist_tracks(username, playlist["id"])["items"]:
 		#print trackItem["track"]
 		key = (str(trackItem["track"]["name"]), str( trackItem["track"]["artists"][0]["name"]))
 		if songs.has_key(key):
-			trackPlaylists = songs[key]['playlists']
+			trackPlaylists = songs[key]["playlists"]
 			if trackPlaylists.has_key(playlist_name): 
-				songs[key]['playlists'][playlist_name].append(index)
+				songs[key]["playlists"][playlist_name].append(index)
 			else:
-				songs[key]['playlists'][playlist_name] = [index]
+				songs[key]["playlists"][playlist_name] = [index]
 		else:
-			songs[key] = {'playlists' : {playlist_name : [index]}, 'uri' : trackItem['track']['uri']}
+			songs[key] = {"playlists" : {playlist_name : [index]}, "uri" : trackItem["track"]["uri"]}
 duplicates = {}
 while True:
 	i = 1
@@ -29,17 +29,17 @@ while True:
 
 	for track in songs:
 		totalCount = 0
-		for count in songs[track]['playlists'].itervalues():
+		for count in songs[track]["playlists"].itervalues():
 			totalCount += len(count)
 		if not totalCount > 1:
 			continue
 		print i, track[0], "by", track[1], "Total count:", totalCount
-		duplicates[i] = {'track_name' : track[0], 'artist' : track[1], 'playlists' : {}, 'uri' : songs[track]['uri']}
-		for playlist, count in songs[track]['playlists'].iteritems():
-			duplicates[i]['playlists'][playlist] = songs[track]['playlists'][playlist]
-			print '  ', j, playlist, "count:", len(count), "(Remove all but one)"
+		duplicates[i] = {"track_name" : track[0], "artist" : track[1], "playlists" : {}, "uri" : songs[track]["uri"]}
+		for playlist, count in songs[track]["playlists"].iteritems():
+			duplicates[i]["playlists"][playlist] = songs[track]["playlists"][playlist]
+			print "  ", j, playlist, "count:", len(count), "(Remove all but one)"
 			j += 1
-			print '  ', j, playlist, "count:", len(count), "(Remove all)"
+			print "  ", j, playlist, "count:", len(count), "(Remove all)"
 			j += 1
 		print
 		j = 1
