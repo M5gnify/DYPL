@@ -1,0 +1,3 @@
+# things that could, but not necessarily must, be added
+
+- add option to remove ALL duplicates of a song from ALL playlists
