@@ -27,7 +27,7 @@ songs =
 # second variant (current one)
 songs = 
 	{
-		(trackName, []) : 
+		(trackName, [artists]) : 
 		{
 			(playlistId, playlistName) :
 			[
@@ -36,6 +36,30 @@ songs =
 					"position" : position
 				}, ...
 			], ...
-		}
+			(playlistId, playlistName) :
+			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, ...
+			], ...
+		},
+		(trackName, [artists]) : 
+		{
+			(playlistId, playlistName) :
+			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, ...
+			], ...
+			(playlistId, playlistName) :
+			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, ...
+			], ...
+		},
 	}
 	
