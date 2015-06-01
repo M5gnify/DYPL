@@ -1,3 +1,7 @@
 # things that could, but not necessarily must, be added
 
+X remove from duplicates dict (Must do)
+- possibility to enter several songs/playlists to remove at once
 - add option to remove ALL duplicates of a song from ALL playlists
+X clean up the code (divide into functions etc.)
+- look if more comments are needed

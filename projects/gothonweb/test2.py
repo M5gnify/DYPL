@@ -10,7 +10,7 @@ sp = spotipy.Spotify(auth=token.token)
 playlists = sp.user_playlists(username)["items"]
 
 for playlist in playlists:
-    print playlist['id']
+    print playlist['name']
     for trackItem in sp.user_playlist_tracks(username, playlist['id'])['items']:
         parse(trackItem)
     print
