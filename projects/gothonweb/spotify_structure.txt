@@ -1,0 +1,3075 @@
+spotipy test
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : From Under The Cork Tree Limited Tour Edition,
+            external_urls : {
+                spotify : https://open.spotify.com/album/2AX9B6Af32in4KbKtX1r4q,
+            } end(external_urls)
+            uri : spotify:album:2AX9B6Af32in4KbKtX1r4q,
+            href : https://api.spotify.com/v1/albums/2AX9B6Af32in4KbKtX1r4q,
+            images : [
+                {
+                    url : https://i.scdn.co/image/9b992a9c51607010eb9931f39ac48af2f870677c,
+                    width : 640,
+                    height : 635,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/c2e8208629280b0cf1d8bde47ad5d25ed49e9a1d,
+                    width : 300,
+                    height : 298,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/32e347ee430669d779e1c657b1a4f09ea1233623,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 2AX9B6Af32in4KbKtX1r4q,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Snitches And Talkers Get Stitches And Walkers,
+        uri : spotify:track:0BIzDMGOblVrdoXQFmzdbV,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0BIzDMGOblVrdoXQFmzdbV,
+        } end(external_urls)
+        popularity : 38,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/80975743675902357671f7bf27fa7e070d88af91,
+        track_number : 14,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0BIzDMGOblVrdoXQFmzdbV,
+        artists : [
+            {
+                name : Fall Out Boy,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/4UXqAaa6dQYAk18Lv7PEgX,
+                } end(external_urls)
+                uri : spotify:artist:4UXqAaa6dQYAk18Lv7PEgX,
+                href : https://api.spotify.com/v1/artists/4UXqAaa6dQYAk18Lv7PEgX,
+                type : artist,
+                id : 4UXqAaa6dQYAk18Lv7PEgX,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 170493,
+        external_ids : {
+            isrc : USUM70507536,
+        } end(external_ids)
+        type : track,
+        id : 0BIzDMGOblVrdoXQFmzdbV,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T13:03:48Z,
+} end(root)
+None
+{
+    is_local : True,
+    track : {
+        album : {
+            album_type : None,
+            name : Kill 'Em All,
+            external_urls : {
+            } end(external_urls)
+            uri : None,
+            href : None,
+            images : [
+            ] end(images)
+            type : album,
+            id : None,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : The Four Horsemen,
+        uri : spotify:local:Metallica:Kill+%27Em+All:The+Four+Horsemen:433,
+        external_urls : {
+        } end(external_urls)
+        popularity : 0,
+        explicit : False,
+        preview_url : None,
+        track_number : 0,
+        disc_number : 0,
+        href : None,
+        artists : [
+            {
+                name : Metallica,
+                external_urls : {
+                } end(external_urls)
+                uri : None,
+                href : None,
+                type : artist,
+                id : None,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 433000,
+        external_ids : {
+        } end(external_ids)
+        type : track,
+        id : None,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T14:04:55Z,
+} end(root)
+None
+{
+    is_local : True,
+    track : {
+        album : {
+            album_type : None,
+            name : Kill 'Em All,
+            external_urls : {
+            } end(external_urls)
+            uri : None,
+            href : None,
+            images : [
+            ] end(images)
+            type : album,
+            id : None,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : The Four Horsemen,
+        uri : spotify:local:Metallica:Kill+%27Em+All:The+Four+Horsemen:433,
+        external_urls : {
+        } end(external_urls)
+        popularity : 0,
+        explicit : False,
+        preview_url : None,
+        track_number : 0,
+        disc_number : 0,
+        href : None,
+        artists : [
+            {
+                name : Metallica,
+                external_urls : {
+                } end(external_urls)
+                uri : None,
+                href : None,
+                type : artist,
+                id : None,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 433000,
+        external_ids : {
+        } end(external_ids)
+        type : track,
+        id : None,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T14:04:58Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Get Nice!,
+            external_urls : {
+                spotify : https://open.spotify.com/album/5MvUe7GScr1FOlmkorPe7c,
+            } end(external_urls)
+            uri : spotify:album:5MvUe7GScr1FOlmkorPe7c,
+            href : https://api.spotify.com/v1/albums/5MvUe7GScr1FOlmkorPe7c,
+            images : [
+                {
+                    url : https://i.scdn.co/image/18f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/ec108962005b80020e3affc4fd2f646dd038371b,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6089de1ae0f1da68ebcfcb1d1a7b7a8829f0a887,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 5MvUe7GScr1FOlmkorPe7c,
+            available_markets : [
+                BE,
+                BG,
+                CZ,
+                DK,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                HU,
+                IE,
+                IT,
+                LU,
+                NL,
+                NO,
+                PL,
+                PT,
+                RO,
+                SE,
+                SK,
+            ] end(available_markets)
+        } end(album)
+        name : Nudist Priest,
+        uri : spotify:track:0Gmg3m78tk2WbhSmNuBv2t,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0Gmg3m78tk2WbhSmNuBv2t,
+        } end(external_urls)
+        popularity : 19,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4ae36f74c397f22472f9dc0fa436ac1679d7c04d,
+        track_number : 7,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0Gmg3m78tk2WbhSmNuBv2t,
+        artists : [
+            {
+                name : zebrahead,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/6SiyKSeJo6gcsS2NvuAbsl,
+                } end(external_urls)
+                uri : spotify:artist:6SiyKSeJo6gcsS2NvuAbsl,
+                href : https://api.spotify.com/v1/artists/6SiyKSeJo6gcsS2NvuAbsl,
+                type : artist,
+                id : 6SiyKSeJo6gcsS2NvuAbsl,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 218946,
+        external_ids : {
+            isrc : USA371365647,
+        } end(external_ids)
+        type : track,
+        id : 0Gmg3m78tk2WbhSmNuBv2t,
+        available_markets : [
+            BE,
+            BG,
+            CZ,
+            DK,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            HU,
+            IE,
+            IT,
+            LU,
+            NL,
+            NO,
+            PL,
+            PT,
+            RO,
+            SE,
+            SK,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:32:42Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Halo 3: Original Soundtrack,
+            external_urls : {
+                spotify : https://open.spotify.com/album/6x8wiG82nFACtYrIoFQreT,
+            } end(external_urls)
+            uri : spotify:album:6x8wiG82nFACtYrIoFQreT,
+            href : https://api.spotify.com/v1/albums/6x8wiG82nFACtYrIoFQreT,
+            images : [
+                {
+                    url : https://i.scdn.co/image/99ed87f35c7bf54fbd4e0b69771ce16b571db244,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/73922675055c2d4f7e6f2624334f628aa2dc38b3,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/9f8f747b6cd769302429acdf7fb8e470ba64fe02,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 6x8wiG82nFACtYrIoFQreT,
+            available_markets : [
+                AD,
+                AR,
+                BE,
+                BG,
+                BO,
+                BR,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Never Forget,
+        uri : spotify:track:3XtT67dnbQSTyaulBRSGmk,
+        external_urls : {
+            spotify : https://open.spotify.com/track/3XtT67dnbQSTyaulBRSGmk,
+        } end(external_urls)
+        popularity : 46,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4cee56f1f29b2f3191d2acad3f5329664b020a10,
+        track_number : 30,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/3XtT67dnbQSTyaulBRSGmk,
+        artists : [
+            {
+                name : Martin O'Donnell,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/5oERdzrfb6kmNMzPNINZib,
+                } end(external_urls)
+                uri : spotify:artist:5oERdzrfb6kmNMzPNINZib,
+                href : https://api.spotify.com/v1/artists/5oERdzrfb6kmNMzPNINZib,
+                type : artist,
+                id : 5oERdzrfb6kmNMzPNINZib,
+            } end(artists)
+            {
+                name : Michael Salvatori,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7Ir0wjCeuhkHUyPAfNJi2X,
+                } end(external_urls)
+                uri : spotify:artist:7Ir0wjCeuhkHUyPAfNJi2X,
+                href : https://api.spotify.com/v1/artists/7Ir0wjCeuhkHUyPAfNJi2X,
+                type : artist,
+                id : 7Ir0wjCeuhkHUyPAfNJi2X,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 187680,
+        external_ids : {
+            isrc : USSR20700631,
+        } end(external_ids)
+        type : track,
+        id : 3XtT67dnbQSTyaulBRSGmk,
+        available_markets : [
+            AD,
+            AR,
+            BE,
+            BG,
+            BO,
+            BR,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:32:55Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Random Friday,
+            external_urls : {
+                spotify : https://open.spotify.com/album/2qQ83Wtq7dEsRyoFtdejDA,
+            } end(external_urls)
+            uri : spotify:album:2qQ83Wtq7dEsRyoFtdejDA,
+            href : https://api.spotify.com/v1/albums/2qQ83Wtq7dEsRyoFtdejDA,
+            images : [
+                {
+                    url : https://i.scdn.co/image/eb72f4306e78b163a336e60ed82fab33e73ffa40,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/52ff0215be4687668b46bc2b244f3604920d0258,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/e0ccd233a0306265048afa9240a43ece9c03d570,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 2qQ83Wtq7dEsRyoFtdejDA,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LU,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Random Friday (Full album continuous mix),
+        uri : spotify:track:0SuEnEW4pYUbd1iQc3ASis,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0SuEnEW4pYUbd1iQc3ASis,
+        } end(external_urls)
+        popularity : 20,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/58b92713793a29e0d32722b70c46c1d44c5e21e0,
+        track_number : 11,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0SuEnEW4pYUbd1iQc3ASis,
+        artists : [
+            {
+                name : Solar Fields,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7GyhmlEy51sGUE09A5AWzc,
+                } end(external_urls)
+                uri : spotify:artist:7GyhmlEy51sGUE09A5AWzc,
+                href : https://api.spotify.com/v1/artists/7GyhmlEy51sGUE09A5AWzc,
+                type : artist,
+                id : 7GyhmlEy51sGUE09A5AWzc,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 4680042,
+        external_ids : {
+            isrc : USQY51263363,
+        } end(external_ids)
+        type : track,
+        id : 0SuEnEW4pYUbd1iQc3ASis,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LU,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:33:03Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : One By One,
+            external_urls : {
+                spotify : https://open.spotify.com/album/2TIp2qGorHvqyaiAb82Awe,
+            } end(external_urls)
+            uri : spotify:album:2TIp2qGorHvqyaiAb82Awe,
+            href : https://api.spotify.com/v1/albums/2TIp2qGorHvqyaiAb82Awe,
+            images : [
+                {
+                    url : https://i.scdn.co/image/247c1762c5b5108b285019aabf3b0cf98d81cf64,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6078279c2dfca59db10092879b7daaa64bd98593,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/cc63112629b23ccbf6f2393ff49ad28b1bdff65c,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 2TIp2qGorHvqyaiAb82Awe,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : All My Life,
+        uri : spotify:track:40Gxnw5Vc8hnhGFknXHe3R,
+        external_urls : {
+            spotify : https://open.spotify.com/track/40Gxnw5Vc8hnhGFknXHe3R,
+        } end(external_urls)
+        popularity : 62,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/fb164d211916753b35906fe8a2eea7cca30dc335,
+        track_number : 1,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/40Gxnw5Vc8hnhGFknXHe3R,
+        artists : [
+            {
+                name : Foo Fighters,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD,
+                } end(external_urls)
+                uri : spotify:artist:7jy3rLJdDQY21OgRLCZ9sD,
+                href : https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD,
+                type : artist,
+                id : 7jy3rLJdDQY21OgRLCZ9sD,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 262733,
+        external_ids : {
+            isrc : USRW30200001,
+        } end(external_ids)
+        type : track,
+        id : 40Gxnw5Vc8hnhGFknXHe3R,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:33:17Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : compilation,
+            name : Greatest Hits,
+            external_urls : {
+                spotify : https://open.spotify.com/album/1zCNrbPpz5OLSr6mSpPdKm,
+            } end(external_urls)
+            uri : spotify:album:1zCNrbPpz5OLSr6mSpPdKm,
+            href : https://api.spotify.com/v1/albums/1zCNrbPpz5OLSr6mSpPdKm,
+            images : [
+                {
+                    url : https://i.scdn.co/image/d181666ebeda1aa062a5f0250b85be6150badd0f,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/9ed1dc82d30f1b519a97659f401c2397cfd68878,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/e08a4a69c8c83ecf2437f15ba706db3f35106a6b,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 1zCNrbPpz5OLSr6mSpPdKm,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : All My Life,
+        uri : spotify:track:2HbVINmehEbPmjlcueXEJJ,
+        external_urls : {
+            spotify : https://open.spotify.com/track/2HbVINmehEbPmjlcueXEJJ,
+        } end(external_urls)
+        popularity : 61,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/e361d9380100c0775f12b2b9e07be4ab7c0194bb,
+        track_number : 1,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/2HbVINmehEbPmjlcueXEJJ,
+        artists : [
+            {
+                name : Foo Fighters,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD,
+                } end(external_urls)
+                uri : spotify:artist:7jy3rLJdDQY21OgRLCZ9sD,
+                href : https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD,
+                type : artist,
+                id : 7jy3rLJdDQY21OgRLCZ9sD,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 263560,
+        external_ids : {
+            isrc : USRW30200001,
+        } end(external_ids)
+        type : track,
+        id : 2HbVINmehEbPmjlcueXEJJ,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:33:59Z,
+} end(root)
+None
+
+Favourites
+{
+    is_local : True,
+    track : {
+        album : {
+            album_type : None,
+            name : Kill 'Em All,
+            external_urls : {
+            } end(external_urls)
+            uri : None,
+            href : None,
+            images : [
+            ] end(images)
+            type : album,
+            id : None,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : The Four Horsemen,
+        uri : spotify:local:Metallica:Kill+%27Em+All:The+Four+Horsemen:433,
+        external_urls : {
+        } end(external_urls)
+        popularity : 0,
+        explicit : False,
+        preview_url : None,
+        track_number : 0,
+        disc_number : 0,
+        href : None,
+        artists : [
+            {
+                name : Metallica,
+                external_urls : {
+                } end(external_urls)
+                uri : None,
+                href : None,
+                type : artist,
+                id : None,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 433000,
+        external_ids : {
+        } end(external_ids)
+        type : track,
+        id : None,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2013-05-31T08:51:48Z,
+} end(root)
+None
+{
+    is_local : True,
+    track : {
+        album : {
+            album_type : None,
+            name : Best Of The Beast,
+            external_urls : {
+            } end(external_urls)
+            uri : None,
+            href : None,
+            images : [
+            ] end(images)
+            type : album,
+            id : None,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : Can I Play With Madness,
+        uri : spotify:local:Iron+Maiden:Best+Of+The+Beast:Can+I+Play+With+Madness:213,
+        external_urls : {
+        } end(external_urls)
+        popularity : 0,
+        explicit : False,
+        preview_url : None,
+        track_number : 0,
+        disc_number : 0,
+        href : None,
+        artists : [
+            {
+                name : Iron Maiden,
+                external_urls : {
+                } end(external_urls)
+                uri : None,
+                href : None,
+                type : artist,
+                id : None,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 213000,
+        external_ids : {
+        } end(external_ids)
+        type : track,
+        id : None,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2013-05-31T08:51:48Z,
+} end(root)
+None
+{
+    is_local : True,
+    track : {
+        album : {
+            album_type : None,
+            name : ...And Justice For All,
+            external_urls : {
+            } end(external_urls)
+            uri : None,
+            href : None,
+            images : [
+            ] end(images)
+            type : album,
+            id : None,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : ...And Justice For All,
+        uri : spotify:local:Metallica:...And+Justice+For+All:...And+Justice+For+All:586,
+        external_urls : {
+        } end(external_urls)
+        popularity : 0,
+        explicit : False,
+        preview_url : None,
+        track_number : 0,
+        disc_number : 0,
+        href : None,
+        artists : [
+            {
+                name : Metallica,
+                external_urls : {
+                } end(external_urls)
+                uri : None,
+                href : None,
+                type : artist,
+                id : None,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 586000,
+        external_ids : {
+        } end(external_ids)
+        type : track,
+        id : None,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2013-05-31T08:51:48Z,
+} end(root)
+None
+
+Liked from Radio
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Arrivals & Departures,
+            external_urls : {
+                spotify : https://open.spotify.com/album/4eJeD3Gbc77x3NpBjUksOw,
+            } end(external_urls)
+            uri : spotify:album:4eJeD3Gbc77x3NpBjUksOw,
+            href : https://api.spotify.com/v1/albums/4eJeD3Gbc77x3NpBjUksOw,
+            images : [
+                {
+                    url : https://i.scdn.co/image/4d495bed7f6808fa836bd39f806dcb5d8bd110ce,
+                    width : 600,
+                    height : 600,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/031fe5993275fac26d2f88bf872b7061fe59b10c,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/0fb4f53e69c61188ebec90649bea66e0b9ef3934,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 4eJeD3Gbc77x3NpBjUksOw,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Bodies and Words,
+        uri : spotify:track:5VVpBAKZySornivVwBh0zC,
+        external_urls : {
+            spotify : https://open.spotify.com/track/5VVpBAKZySornivVwBh0zC,
+        } end(external_urls)
+        popularity : 19,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/49e49ed6367a92eeb0bdc7468a3b7f301f1615a5,
+        track_number : 2,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/5VVpBAKZySornivVwBh0zC,
+        artists : [
+            {
+                name : Silverstein,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/1Tsag5J854qxeOo2apszug,
+                } end(external_urls)
+                uri : spotify:artist:1Tsag5J854qxeOo2apszug,
+                href : https://api.spotify.com/v1/artists/1Tsag5J854qxeOo2apszug,
+                type : artist,
+                id : 1Tsag5J854qxeOo2apszug,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 196493,
+        external_ids : {
+            isrc : USVIC0735002,
+        } end(external_ids)
+        type : track,
+        id : 5VVpBAKZySornivVwBh0zC,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2013-05-12T16:05:59Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Golden Ticket,
+            external_urls : {
+                spotify : https://open.spotify.com/album/313LYftQmJlWMLguSB4YsR,
+            } end(external_urls)
+            uri : spotify:album:313LYftQmJlWMLguSB4YsR,
+            href : https://api.spotify.com/v1/albums/313LYftQmJlWMLguSB4YsR,
+            images : [
+                {
+                    url : https://i.scdn.co/image/922dc3fbae7dbded246fbeca6eb9d041c2d6989d,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/4a66ab41df7da130a846e8a9851998b00524f899,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/10782a7286abc14352e28f4198961173f56c16fd,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 313LYftQmJlWMLguSB4YsR,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : Get On It,
+        uri : spotify:track:0m7wDnCQJxCS9Jt5N62O4O,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0m7wDnCQJxCS9Jt5N62O4O,
+        } end(external_urls)
+        popularity : 20,
+        explicit : False,
+        preview_url : None,
+        track_number : 3,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0m7wDnCQJxCS9Jt5N62O4O,
+        artists : [
+            {
+                name : Danny Byrd,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7iczgrgAFILjQVGzLsUzbG,
+                } end(external_urls)
+                uri : spotify:artist:7iczgrgAFILjQVGzLsUzbG,
+                href : https://api.spotify.com/v1/artists/7iczgrgAFILjQVGzLsUzbG,
+                type : artist,
+                id : 7iczgrgAFILjQVGzLsUzbG,
+            } end(artists)
+            {
+                name : Brookes Brothers,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/2FPeVdIIXD9Wb9Kbn1Hyz6,
+                } end(external_urls)
+                uri : spotify:artist:2FPeVdIIXD9Wb9Kbn1Hyz6,
+                href : https://api.spotify.com/v1/artists/2FPeVdIIXD9Wb9Kbn1Hyz6,
+                type : artist,
+                id : 2FPeVdIIXD9Wb9Kbn1Hyz6,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 244741,
+        external_ids : {
+            isrc : GBCJY1300096,
+        } end(external_ids)
+        type : track,
+        id : 0m7wDnCQJxCS9Jt5N62O4O,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-05-29T12:33:52Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : One By One,
+            external_urls : {
+                spotify : https://open.spotify.com/album/2TIp2qGorHvqyaiAb82Awe,
+            } end(external_urls)
+            uri : spotify:album:2TIp2qGorHvqyaiAb82Awe,
+            href : https://api.spotify.com/v1/albums/2TIp2qGorHvqyaiAb82Awe,
+            images : [
+                {
+                    url : https://i.scdn.co/image/247c1762c5b5108b285019aabf3b0cf98d81cf64,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6078279c2dfca59db10092879b7daaa64bd98593,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/cc63112629b23ccbf6f2393ff49ad28b1bdff65c,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 2TIp2qGorHvqyaiAb82Awe,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : All My Life,
+        uri : spotify:track:40Gxnw5Vc8hnhGFknXHe3R,
+        external_urls : {
+            spotify : https://open.spotify.com/track/40Gxnw5Vc8hnhGFknXHe3R,
+        } end(external_urls)
+        popularity : 62,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/fb164d211916753b35906fe8a2eea7cca30dc335,
+        track_number : 1,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/40Gxnw5Vc8hnhGFknXHe3R,
+        artists : [
+            {
+                name : Foo Fighters,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD,
+                } end(external_urls)
+                uri : spotify:artist:7jy3rLJdDQY21OgRLCZ9sD,
+                href : https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD,
+                type : artist,
+                id : 7jy3rLJdDQY21OgRLCZ9sD,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 262733,
+        external_ids : {
+            isrc : USRW30200001,
+        } end(external_ids)
+        type : track,
+        id : 40Gxnw5Vc8hnhGFknXHe3R,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T13:03:03Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Get Nice!,
+            external_urls : {
+                spotify : https://open.spotify.com/album/5MvUe7GScr1FOlmkorPe7c,
+            } end(external_urls)
+            uri : spotify:album:5MvUe7GScr1FOlmkorPe7c,
+            href : https://api.spotify.com/v1/albums/5MvUe7GScr1FOlmkorPe7c,
+            images : [
+                {
+                    url : https://i.scdn.co/image/18f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/ec108962005b80020e3affc4fd2f646dd038371b,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6089de1ae0f1da68ebcfcb1d1a7b7a8829f0a887,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 5MvUe7GScr1FOlmkorPe7c,
+            available_markets : [
+                BE,
+                BG,
+                CZ,
+                DK,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                HU,
+                IE,
+                IT,
+                LU,
+                NL,
+                NO,
+                PL,
+                PT,
+                RO,
+                SE,
+                SK,
+            ] end(available_markets)
+        } end(album)
+        name : Nudist Priest,
+        uri : spotify:track:0Gmg3m78tk2WbhSmNuBv2t,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0Gmg3m78tk2WbhSmNuBv2t,
+        } end(external_urls)
+        popularity : 19,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4ae36f74c397f22472f9dc0fa436ac1679d7c04d,
+        track_number : 7,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0Gmg3m78tk2WbhSmNuBv2t,
+        artists : [
+            {
+                name : zebrahead,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/6SiyKSeJo6gcsS2NvuAbsl,
+                } end(external_urls)
+                uri : spotify:artist:6SiyKSeJo6gcsS2NvuAbsl,
+                href : https://api.spotify.com/v1/artists/6SiyKSeJo6gcsS2NvuAbsl,
+                type : artist,
+                id : 6SiyKSeJo6gcsS2NvuAbsl,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 218946,
+        external_ids : {
+            isrc : USA371365647,
+        } end(external_ids)
+        type : track,
+        id : 0Gmg3m78tk2WbhSmNuBv2t,
+        available_markets : [
+            BE,
+            BG,
+            CZ,
+            DK,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            HU,
+            IE,
+            IT,
+            LU,
+            NL,
+            NO,
+            PL,
+            PT,
+            RO,
+            SE,
+            SK,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T13:19:42Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Halo 3: Original Soundtrack,
+            external_urls : {
+                spotify : https://open.spotify.com/album/6x8wiG82nFACtYrIoFQreT,
+            } end(external_urls)
+            uri : spotify:album:6x8wiG82nFACtYrIoFQreT,
+            href : https://api.spotify.com/v1/albums/6x8wiG82nFACtYrIoFQreT,
+            images : [
+                {
+                    url : https://i.scdn.co/image/99ed87f35c7bf54fbd4e0b69771ce16b571db244,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/73922675055c2d4f7e6f2624334f628aa2dc38b3,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/9f8f747b6cd769302429acdf7fb8e470ba64fe02,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 6x8wiG82nFACtYrIoFQreT,
+            available_markets : [
+                AD,
+                AR,
+                BE,
+                BG,
+                BO,
+                BR,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Never Forget,
+        uri : spotify:track:3XtT67dnbQSTyaulBRSGmk,
+        external_urls : {
+            spotify : https://open.spotify.com/track/3XtT67dnbQSTyaulBRSGmk,
+        } end(external_urls)
+        popularity : 46,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4cee56f1f29b2f3191d2acad3f5329664b020a10,
+        track_number : 30,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/3XtT67dnbQSTyaulBRSGmk,
+        artists : [
+            {
+                name : Martin O'Donnell,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/5oERdzrfb6kmNMzPNINZib,
+                } end(external_urls)
+                uri : spotify:artist:5oERdzrfb6kmNMzPNINZib,
+                href : https://api.spotify.com/v1/artists/5oERdzrfb6kmNMzPNINZib,
+                type : artist,
+                id : 5oERdzrfb6kmNMzPNINZib,
+            } end(artists)
+            {
+                name : Michael Salvatori,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7Ir0wjCeuhkHUyPAfNJi2X,
+                } end(external_urls)
+                uri : spotify:artist:7Ir0wjCeuhkHUyPAfNJi2X,
+                href : https://api.spotify.com/v1/artists/7Ir0wjCeuhkHUyPAfNJi2X,
+                type : artist,
+                id : 7Ir0wjCeuhkHUyPAfNJi2X,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 187680,
+        external_ids : {
+            isrc : USSR20700631,
+        } end(external_ids)
+        type : track,
+        id : 3XtT67dnbQSTyaulBRSGmk,
+        available_markets : [
+            AD,
+            AR,
+            BE,
+            BG,
+            BO,
+            BR,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:32:58Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Golden Ticket,
+            external_urls : {
+                spotify : https://open.spotify.com/album/313LYftQmJlWMLguSB4YsR,
+            } end(external_urls)
+            uri : spotify:album:313LYftQmJlWMLguSB4YsR,
+            href : https://api.spotify.com/v1/albums/313LYftQmJlWMLguSB4YsR,
+            images : [
+                {
+                    url : https://i.scdn.co/image/922dc3fbae7dbded246fbeca6eb9d041c2d6989d,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/4a66ab41df7da130a846e8a9851998b00524f899,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/10782a7286abc14352e28f4198961173f56c16fd,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 313LYftQmJlWMLguSB4YsR,
+            available_markets : [
+            ] end(available_markets)
+        } end(album)
+        name : Get On It,
+        uri : spotify:track:0m7wDnCQJxCS9Jt5N62O4O,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0m7wDnCQJxCS9Jt5N62O4O,
+        } end(external_urls)
+        popularity : 20,
+        explicit : False,
+        preview_url : None,
+        track_number : 3,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0m7wDnCQJxCS9Jt5N62O4O,
+        artists : [
+            {
+                name : Danny Byrd,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7iczgrgAFILjQVGzLsUzbG,
+                } end(external_urls)
+                uri : spotify:artist:7iczgrgAFILjQVGzLsUzbG,
+                href : https://api.spotify.com/v1/artists/7iczgrgAFILjQVGzLsUzbG,
+                type : artist,
+                id : 7iczgrgAFILjQVGzLsUzbG,
+            } end(artists)
+            {
+                name : Brookes Brothers,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/2FPeVdIIXD9Wb9Kbn1Hyz6,
+                } end(external_urls)
+                uri : spotify:artist:2FPeVdIIXD9Wb9Kbn1Hyz6,
+                href : https://api.spotify.com/v1/artists/2FPeVdIIXD9Wb9Kbn1Hyz6,
+                type : artist,
+                id : 2FPeVdIIXD9Wb9Kbn1Hyz6,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 244741,
+        external_ids : {
+            isrc : GBCJY1300096,
+        } end(external_ids)
+        type : track,
+        id : 0m7wDnCQJxCS9Jt5N62O4O,
+        available_markets : [
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:33:11Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : compilation,
+            name : Greatest Hits,
+            external_urls : {
+                spotify : https://open.spotify.com/album/1zCNrbPpz5OLSr6mSpPdKm,
+            } end(external_urls)
+            uri : spotify:album:1zCNrbPpz5OLSr6mSpPdKm,
+            href : https://api.spotify.com/v1/albums/1zCNrbPpz5OLSr6mSpPdKm,
+            images : [
+                {
+                    url : https://i.scdn.co/image/d181666ebeda1aa062a5f0250b85be6150badd0f,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/9ed1dc82d30f1b519a97659f401c2397cfd68878,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/e08a4a69c8c83ecf2437f15ba706db3f35106a6b,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 1zCNrbPpz5OLSr6mSpPdKm,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : All My Life,
+        uri : spotify:track:2HbVINmehEbPmjlcueXEJJ,
+        external_urls : {
+            spotify : https://open.spotify.com/track/2HbVINmehEbPmjlcueXEJJ,
+        } end(external_urls)
+        popularity : 61,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/e361d9380100c0775f12b2b9e07be4ab7c0194bb,
+        track_number : 1,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/2HbVINmehEbPmjlcueXEJJ,
+        artists : [
+            {
+                name : Foo Fighters,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD,
+                } end(external_urls)
+                uri : spotify:artist:7jy3rLJdDQY21OgRLCZ9sD,
+                href : https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD,
+                type : artist,
+                id : 7jy3rLJdDQY21OgRLCZ9sD,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 263560,
+        external_ids : {
+            isrc : USRW30200001,
+        } end(external_ids)
+        type : track,
+        id : 2HbVINmehEbPmjlcueXEJJ,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:34:01Z,
+} end(root)
+None
+
+Chill
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Random Friday,
+            external_urls : {
+                spotify : https://open.spotify.com/album/2qQ83Wtq7dEsRyoFtdejDA,
+            } end(external_urls)
+            uri : spotify:album:2qQ83Wtq7dEsRyoFtdejDA,
+            href : https://api.spotify.com/v1/albums/2qQ83Wtq7dEsRyoFtdejDA,
+            images : [
+                {
+                    url : https://i.scdn.co/image/eb72f4306e78b163a336e60ed82fab33e73ffa40,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/52ff0215be4687668b46bc2b244f3604920d0258,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/e0ccd233a0306265048afa9240a43ece9c03d570,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 2qQ83Wtq7dEsRyoFtdejDA,
+            available_markets : [
+                AD,
+                AR,
+                AT,
+                AU,
+                BE,
+                BG,
+                BO,
+                BR,
+                CA,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DE,
+                DK,
+                DO,
+                EC,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LU,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Random Friday (Full album continuous mix),
+        uri : spotify:track:0SuEnEW4pYUbd1iQc3ASis,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0SuEnEW4pYUbd1iQc3ASis,
+        } end(external_urls)
+        popularity : 20,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/58b92713793a29e0d32722b70c46c1d44c5e21e0,
+        track_number : 11,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0SuEnEW4pYUbd1iQc3ASis,
+        artists : [
+            {
+                name : Solar Fields,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7GyhmlEy51sGUE09A5AWzc,
+                } end(external_urls)
+                uri : spotify:artist:7GyhmlEy51sGUE09A5AWzc,
+                href : https://api.spotify.com/v1/artists/7GyhmlEy51sGUE09A5AWzc,
+                type : artist,
+                id : 7GyhmlEy51sGUE09A5AWzc,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 4680042,
+        external_ids : {
+            isrc : USQY51263363,
+        } end(external_ids)
+        type : track,
+        id : 0SuEnEW4pYUbd1iQc3ASis,
+        available_markets : [
+            AD,
+            AR,
+            AT,
+            AU,
+            BE,
+            BG,
+            BO,
+            BR,
+            CA,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DE,
+            DK,
+            DO,
+            EC,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LU,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : None,
+    added_at : 2012-11-12T19:40:54Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Halo 3: Original Soundtrack,
+            external_urls : {
+                spotify : https://open.spotify.com/album/6x8wiG82nFACtYrIoFQreT,
+            } end(external_urls)
+            uri : spotify:album:6x8wiG82nFACtYrIoFQreT,
+            href : https://api.spotify.com/v1/albums/6x8wiG82nFACtYrIoFQreT,
+            images : [
+                {
+                    url : https://i.scdn.co/image/99ed87f35c7bf54fbd4e0b69771ce16b571db244,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/73922675055c2d4f7e6f2624334f628aa2dc38b3,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/9f8f747b6cd769302429acdf7fb8e470ba64fe02,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 6x8wiG82nFACtYrIoFQreT,
+            available_markets : [
+                AD,
+                AR,
+                BE,
+                BG,
+                BO,
+                BR,
+                CH,
+                CL,
+                CO,
+                CR,
+                CY,
+                CZ,
+                DK,
+                DO,
+                EC,
+                EE,
+                ES,
+                FI,
+                GR,
+                GT,
+                HK,
+                HN,
+                HU,
+                IE,
+                IS,
+                IT,
+                LI,
+                LT,
+                LU,
+                LV,
+                MC,
+                MT,
+                MX,
+                MY,
+                NI,
+                NL,
+                NO,
+                NZ,
+                PA,
+                PE,
+                PH,
+                PL,
+                PT,
+                PY,
+                RO,
+                SE,
+                SG,
+                SI,
+                SK,
+                SV,
+                TR,
+                TW,
+                US,
+                UY,
+            ] end(available_markets)
+        } end(album)
+        name : Never Forget,
+        uri : spotify:track:3XtT67dnbQSTyaulBRSGmk,
+        external_urls : {
+            spotify : https://open.spotify.com/track/3XtT67dnbQSTyaulBRSGmk,
+        } end(external_urls)
+        popularity : 46,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4cee56f1f29b2f3191d2acad3f5329664b020a10,
+        track_number : 30,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/3XtT67dnbQSTyaulBRSGmk,
+        artists : [
+            {
+                name : Martin O'Donnell,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/5oERdzrfb6kmNMzPNINZib,
+                } end(external_urls)
+                uri : spotify:artist:5oERdzrfb6kmNMzPNINZib,
+                href : https://api.spotify.com/v1/artists/5oERdzrfb6kmNMzPNINZib,
+                type : artist,
+                id : 5oERdzrfb6kmNMzPNINZib,
+            } end(artists)
+            {
+                name : Michael Salvatori,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/7Ir0wjCeuhkHUyPAfNJi2X,
+                } end(external_urls)
+                uri : spotify:artist:7Ir0wjCeuhkHUyPAfNJi2X,
+                href : https://api.spotify.com/v1/artists/7Ir0wjCeuhkHUyPAfNJi2X,
+                type : artist,
+                id : 7Ir0wjCeuhkHUyPAfNJi2X,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 187680,
+        external_ids : {
+            isrc : USSR20700631,
+        } end(external_ids)
+        type : track,
+        id : 3XtT67dnbQSTyaulBRSGmk,
+        available_markets : [
+            AD,
+            AR,
+            BE,
+            BG,
+            BO,
+            BR,
+            CH,
+            CL,
+            CO,
+            CR,
+            CY,
+            CZ,
+            DK,
+            DO,
+            EC,
+            EE,
+            ES,
+            FI,
+            GR,
+            GT,
+            HK,
+            HN,
+            HU,
+            IE,
+            IS,
+            IT,
+            LI,
+            LT,
+            LU,
+            LV,
+            MC,
+            MT,
+            MX,
+            MY,
+            NI,
+            NL,
+            NO,
+            NZ,
+            PA,
+            PE,
+            PH,
+            PL,
+            PT,
+            PY,
+            RO,
+            SE,
+            SG,
+            SI,
+            SK,
+            SV,
+            TR,
+            TW,
+            US,
+            UY,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2013-05-15T16:49:41Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Get Nice!,
+            external_urls : {
+                spotify : https://open.spotify.com/album/5MvUe7GScr1FOlmkorPe7c,
+            } end(external_urls)
+            uri : spotify:album:5MvUe7GScr1FOlmkorPe7c,
+            href : https://api.spotify.com/v1/albums/5MvUe7GScr1FOlmkorPe7c,
+            images : [
+                {
+                    url : https://i.scdn.co/image/18f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/ec108962005b80020e3affc4fd2f646dd038371b,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6089de1ae0f1da68ebcfcb1d1a7b7a8829f0a887,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 5MvUe7GScr1FOlmkorPe7c,
+            available_markets : [
+                BE,
+                BG,
+                CZ,
+                DK,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                HU,
+                IE,
+                IT,
+                LU,
+                NL,
+                NO,
+                PL,
+                PT,
+                RO,
+                SE,
+                SK,
+            ] end(available_markets)
+        } end(album)
+        name : Nudist Priest,
+        uri : spotify:track:0Gmg3m78tk2WbhSmNuBv2t,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0Gmg3m78tk2WbhSmNuBv2t,
+        } end(external_urls)
+        popularity : 19,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4ae36f74c397f22472f9dc0fa436ac1679d7c04d,
+        track_number : 7,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0Gmg3m78tk2WbhSmNuBv2t,
+        artists : [
+            {
+                name : zebrahead,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/6SiyKSeJo6gcsS2NvuAbsl,
+                } end(external_urls)
+                uri : spotify:artist:6SiyKSeJo6gcsS2NvuAbsl,
+                href : https://api.spotify.com/v1/artists/6SiyKSeJo6gcsS2NvuAbsl,
+                type : artist,
+                id : 6SiyKSeJo6gcsS2NvuAbsl,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 218946,
+        external_ids : {
+            isrc : USA371365647,
+        } end(external_ids)
+        type : track,
+        id : 0Gmg3m78tk2WbhSmNuBv2t,
+        available_markets : [
+            BE,
+            BG,
+            CZ,
+            DK,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            HU,
+            IE,
+            IT,
+            LU,
+            NL,
+            NO,
+            PL,
+            PT,
+            RO,
+            SE,
+            SK,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-01T13:19:46Z,
+} end(root)
+None
+{
+    is_local : False,
+    track : {
+        album : {
+            album_type : album,
+            name : Get Nice!,
+            external_urls : {
+                spotify : https://open.spotify.com/album/5MvUe7GScr1FOlmkorPe7c,
+            } end(external_urls)
+            uri : spotify:album:5MvUe7GScr1FOlmkorPe7c,
+            href : https://api.spotify.com/v1/albums/5MvUe7GScr1FOlmkorPe7c,
+            images : [
+                {
+                    url : https://i.scdn.co/image/18f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                    width : 640,
+                    height : 640,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/ec108962005b80020e3affc4fd2f646dd038371b,
+                    width : 300,
+                    height : 300,
+                } end(images)
+                {
+                    url : https://i.scdn.co/image/6089de1ae0f1da68ebcfcb1d1a7b7a8829f0a887,
+                    width : 64,
+                    height : 64,
+                } end(images)
+            ] end(images)
+            type : album,
+            id : 5MvUe7GScr1FOlmkorPe7c,
+            available_markets : [
+                BE,
+                BG,
+                CZ,
+                DK,
+                ES,
+                FI,
+                FR,
+                GB,
+                GR,
+                HU,
+                IE,
+                IT,
+                LU,
+                NL,
+                NO,
+                PL,
+                PT,
+                RO,
+                SE,
+                SK,
+            ] end(available_markets)
+        } end(album)
+        name : Nudist Priest,
+        uri : spotify:track:0Gmg3m78tk2WbhSmNuBv2t,
+        external_urls : {
+            spotify : https://open.spotify.com/track/0Gmg3m78tk2WbhSmNuBv2t,
+        } end(external_urls)
+        popularity : 19,
+        explicit : False,
+        preview_url : https://p.scdn.co/mp3-preview/4ae36f74c397f22472f9dc0fa436ac1679d7c04d,
+        track_number : 7,
+        disc_number : 1,
+        href : https://api.spotify.com/v1/tracks/0Gmg3m78tk2WbhSmNuBv2t,
+        artists : [
+            {
+                name : zebrahead,
+                external_urls : {
+                    spotify : https://open.spotify.com/artist/6SiyKSeJo6gcsS2NvuAbsl,
+                } end(external_urls)
+                uri : spotify:artist:6SiyKSeJo6gcsS2NvuAbsl,
+                href : https://api.spotify.com/v1/artists/6SiyKSeJo6gcsS2NvuAbsl,
+                type : artist,
+                id : 6SiyKSeJo6gcsS2NvuAbsl,
+            } end(artists)
+        ] end(artists)
+        duration_ms : 218946,
+        external_ids : {
+            isrc : USA371365647,
+        } end(external_ids)
+        type : track,
+        id : 0Gmg3m78tk2WbhSmNuBv2t,
+        available_markets : [
+            BE,
+            BG,
+            CZ,
+            DK,
+            ES,
+            FI,
+            FR,
+            GB,
+            GR,
+            HU,
+            IE,
+            IT,
+            LU,
+            NL,
+            NO,
+            PL,
+            PT,
+            RO,
+            SE,
+            SK,
+        ] end(available_markets)
+    } end(track)
+    added_by : {
+        href : https://api.spotify.com/v1/users/masterjonis,
+        type : user,
+        id : masterjonis,
+        uri : spotify:user:masterjonis,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis,
+        } end(external_urls)
+    } end(added_by)
+    added_at : 2015-06-03T08:32:47Z,
+} end(root)
+None
+
