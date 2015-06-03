@@ -1,0 +1,139 @@
+[
+    {
+        name : spotipy test,
+        collaborative : False,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis/playlist/5wEqYYiT6roVtkdF75bMvM,
+        } end(external_urls)
+        uri : spotify:user:masterjonis:playlist:5wEqYYiT6roVtkdF75bMvM,
+        public : True,
+        owner : {
+            href : https://api.spotify.com/v1/users/masterjonis,
+            type : user,
+            id : masterjonis,
+            uri : spotify:user:masterjonis,
+            external_urls : {
+                spotify : http://open.spotify.com/user/masterjonis,
+            } end(external_urls)
+        } end(owner)
+        tracks : {
+            total : 8,
+            href : https://api.spotify.com/v1/users/masterjonis/playlists/5wEqYYiT6roVtkdF75bMvM/tracks,
+        } end(tracks)
+        href : https://api.spotify.com/v1/users/masterjonis/playlists/5wEqYYiT6roVtkdF75bMvM,
+        snapshot_id : vfkVvmerUbFVuapc0iTNaKpyl1j22AQV2umPMxwi2veh40Pz8sNfIfA/5Vsj4bn6,
+        images : [
+            {
+                url : https://i.scdn.co/image/9b992a9c51607010eb9931f39ac48af2f870677c,
+                width : 640,
+                height : 640,
+            } end(images)
+        ] end(images)
+        type : playlist,
+        id : 5wEqYYiT6roVtkdF75bMvM,
+    } end(root)
+    {
+        name : Favourites,
+        collaborative : False,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis/playlist/3Uas2UPpSEOt2uzzwGZqAy,
+        } end(external_urls)
+        uri : spotify:user:masterjonis:playlist:3Uas2UPpSEOt2uzzwGZqAy,
+        public : False,
+        owner : {
+            href : https://api.spotify.com/v1/users/masterjonis,
+            type : user,
+            id : masterjonis,
+            uri : spotify:user:masterjonis,
+            external_urls : {
+                spotify : http://open.spotify.com/user/masterjonis,
+            } end(external_urls)
+        } end(owner)
+        tracks : {
+            total : 3,
+            href : https://api.spotify.com/v1/users/masterjonis/playlists/3Uas2UPpSEOt2uzzwGZqAy/tracks,
+        } end(tracks)
+        href : https://api.spotify.com/v1/users/masterjonis/playlists/3Uas2UPpSEOt2uzzwGZqAy,
+        snapshot_id : az8dyUANXeZHLRty19Z9qgqQ1LrWUupvIYoIl3+82e4xl+6RIYg2c7MTR8d0OCP2,
+        images : [
+        ] end(images)
+        type : playlist,
+        id : 3Uas2UPpSEOt2uzzwGZqAy,
+    } end(root)
+    {
+        name : Liked from Radio,
+        collaborative : False,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis/playlist/6cXRookvpztW6WGBLHvJ3i,
+        } end(external_urls)
+        uri : spotify:user:masterjonis:playlist:6cXRookvpztW6WGBLHvJ3i,
+        public : True,
+        owner : {
+            href : https://api.spotify.com/v1/users/masterjonis,
+            type : user,
+            id : masterjonis,
+            uri : spotify:user:masterjonis,
+            external_urls : {
+                spotify : http://open.spotify.com/user/masterjonis,
+            } end(external_urls)
+        } end(owner)
+        tracks : {
+            total : 7,
+            href : https://api.spotify.com/v1/users/masterjonis/playlists/6cXRookvpztW6WGBLHvJ3i/tracks,
+        } end(tracks)
+        href : https://api.spotify.com/v1/users/masterjonis/playlists/6cXRookvpztW6WGBLHvJ3i,
+        snapshot_id : ENyoMK6BsmE2kwwniyG0SoJJ39f+SXvaNK3Sh3eSnQy1KNGjlOTve/+acv3TvnwK,
+        images : [
+            {
+                url : https://mosaic.scdn.co/640/4d495bed7f6808fa836bd39f806dcb5d8bd110ce922dc3fbae7dbded246fbeca6eb9d041c2d6989d247c1762c5b5108b285019aabf3b0cf98d81cf6418f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                width : 640,
+                height : 640,
+            } end(images)
+            {
+                url : https://mosaic.scdn.co/300/4d495bed7f6808fa836bd39f806dcb5d8bd110ce922dc3fbae7dbded246fbeca6eb9d041c2d6989d247c1762c5b5108b285019aabf3b0cf98d81cf6418f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                width : 300,
+                height : 300,
+            } end(images)
+            {
+                url : https://mosaic.scdn.co/60/4d495bed7f6808fa836bd39f806dcb5d8bd110ce922dc3fbae7dbded246fbeca6eb9d041c2d6989d247c1762c5b5108b285019aabf3b0cf98d81cf6418f8ea5ea0b0bfb99a2bfc3396038b6b1569a6de,
+                width : 60,
+                height : 60,
+            } end(images)
+        ] end(images)
+        type : playlist,
+        id : 6cXRookvpztW6WGBLHvJ3i,
+    } end(root)
+    {
+        name : Chill,
+        collaborative : False,
+        external_urls : {
+            spotify : http://open.spotify.com/user/masterjonis/playlist/1VSqyrdg429PRm6OX6OMPG,
+        } end(external_urls)
+        uri : spotify:user:masterjonis:playlist:1VSqyrdg429PRm6OX6OMPG,
+        public : True,
+        owner : {
+            href : https://api.spotify.com/v1/users/masterjonis,
+            type : user,
+            id : masterjonis,
+            uri : spotify:user:masterjonis,
+            external_urls : {
+                spotify : http://open.spotify.com/user/masterjonis,
+            } end(external_urls)
+        } end(owner)
+        tracks : {
+            total : 4,
+            href : https://api.spotify.com/v1/users/masterjonis/playlists/1VSqyrdg429PRm6OX6OMPG/tracks,
+        } end(tracks)
+        href : https://api.spotify.com/v1/users/masterjonis/playlists/1VSqyrdg429PRm6OX6OMPG,
+        snapshot_id : Ka/gcdhak8qBn6CXnry4Q5vdLVQKpIW+Qg/AFcMW1OZFIX7gaihDUtlahAy3eWzS,
+        images : [
+            {
+                url : https://i.scdn.co/image/eb72f4306e78b163a336e60ed82fab33e73ffa40,
+                width : 640,
+                height : 640,
+            } end(images)
+        ] end(images)
+        type : playlist,
+        id : 1VSqyrdg429PRm6OX6OMPG,
+    } end(root)
+] end(root)
