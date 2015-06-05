@@ -33,12 +33,13 @@ class Playlist
 	tracks = []
 
 Map<Tuple, Map<Tuple, List<Map<String, String>>>>
+
 # second variant (current one)
 duplicates = 
 	{
-		(trackName, [artists]) : 
+		(trackName1, [artist1, artist2, ...]) : 
 		{
-			(playlistId, playlistName) : #(track_uri, [positions])
+			(playlistId, playlistName) : # (track_uri, [positions])
 			[
 				{
 					"track uri" : trackUri,
@@ -61,17 +62,25 @@ duplicates =
 				}, ...
 			], ...
 		},
-		(trackName, [artists]) : 
+		(trackName2, [artist1, artist2, ...]) : 
 		{
-			(playlistId, playlistName) :
+			(playlistId1, playlistName1) :
 			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, 
 				{
 					"track uri" : trackUri,
 					"position" : position
 				}, ...
 			], ...
-			(playlistId, playlistName) :
+			(playlistId2, playlistName2) :
 			[
+				{
+					"track uri" : trackUri,
+					"position" : position
+				}, 
 				{
 					"track uri" : trackUri,
 					"position" : position

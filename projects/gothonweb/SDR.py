@@ -21,7 +21,7 @@ def main():
         print_duplicates(duplicates)
         
         input = raw_input("Which song(s) do you want to remove from which playlist? Type the number of the song followed by the number of the playlist separated by a dot, and after that either 'one' to keep one instance of the track or 'none' to remove all instances, e.g. '1.1 none', or '3.4 one'. Type 'exit' to exit the program:\n").strip()
-        match = re.match("(\d+)\.(\d+) (one|none)", input)
+        match = re.match("([1-9]\d*)\.([1-9]\d*) (one|none)", input)
         
         if input == "exit":
             break
