@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import spotipy
-import parseTreeer
 import re
-import token
 import sys
+import urllib
 
-token = "BQCkDgLoA4nbvF5HkwvSdx2--x3-KNi65jB8XqyqNfK2_VC_V9WCZ8Qcx_LUX-6f6kGDl3AvLvfM0KdzNS-xlebUQfeUrdVb3Fo9jz7f2u4Cj-sreBQq5z2U1CC40WnOoOQrTwGs0bApdUOIdveYCzHkMBvQcxqKoS2X6TDoifY4eFOi3CleJcrrzBwXTcZ4035OcnxCNL2P2vdClExUkWwB_PZgOS3Ow-eGYcDsRKFgFQWmz17-GdnWJYiBez6DX1GP"
-username = "masterjonis"
+token = "ENTER ACCESS TOKEN HERE"
+username = 'ENTER YOUR SPOTIFY USERNAME HERE'  # Change this to your username
+username = urllib.pathname2url(username)
 sp = spotipy.Spotify(auth=token)
 
 def main():
@@ -55,10 +55,10 @@ def get_user_tracks():
             
             track_artists = []
             for artist in track["artists"]:
-                track_artists.append(str(artist["name"]))
+                track_artists.append(artist["name"].encode('utf-8'))
             
-            track_key = (str(track_name), tuple(track_artists))
-            playlist_key = (playlist["id"], playlist["name"])
+            track_key = (track_name.encode('utf-8'), tuple(track_artists))
+            playlist_key = (playlist["id"], playlist["name"].encode('utf-8'))
             track_data = {"uri" : track_uri, "position" : index}
             
             if tracks.has_key(track_key):
@@ -76,17 +76,19 @@ def get_user_tracks():
 def get_duplicates(tracks):
     duplicates = {}
     for track in tracks:
-        duplicates_count = 0
         playlists = tracks[track]
-        
-        for playlist in playlists.itervalues():
-            for track_in_playlist in playlist:
-                duplicates_count += 1
-        
+        duplicates_count = count_duplicates(playlists)
+
         if duplicates_count > 1:
             duplicates[track] = tracks[track]
     
     return duplicates
+
+def count_duplicates(playlists):
+    duplicates_count = 0
+    for playlist in playlists.itervalues():
+        duplicates_count += len(playlist)
+    return duplicates_count
     
 def print_duplicates(duplicates):
     track_nr = 1        # to be used in the output to let the user specify which song to remove 
@@ -95,13 +97,10 @@ def print_duplicates(duplicates):
     print "Duplicates:"
     for track in duplicates:
         playlists = duplicates[track]
-        duplicates_count = 0
-        
-        for playlist in playlists.itervalues():
-            for track_in_playlist in playlist:
-                duplicates_count += 1
+        duplicates_count = count_duplicates(playlists)
+        artists = ', '.join(map(str, track[1]))
                 
-        print "{0} {1} by {2} (Total occurences: {3})".format(track_nr, track[0], str(track[1]), duplicates_count)
+        print "{0} {1} by {2} (Total occurences: {3})".format(track_nr, track[0], artists, duplicates_count)
         
         for playlist in playlists:
             message = "{0} (count: {1})".format(playlist[1], len(playlists[playlist]))

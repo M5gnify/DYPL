@@ -16,4 +16,3 @@ You have to reqeust an access token to run the program. Here's how to do it:
 Limitations:
 1. The program will not count the playlist "Starred" as a playlist.
 2. The program will not list songs that are local.
-3. The program will not run if your Spotify username contains "едц" and maybe other special characters.
