@@ -1,45 +1,10 @@
-what we need: track name, track artist, track uri, playlist id, playlist name, nr of occurences, track position
+Example of how we store the tracks
 
-# first variant
-songs = 
-	{
-		{
-			"track name" : trackName,
-			"track artists" :
-			[
-				
-			]
-		} : 
-		{
-			{
-				"playlist id" : id, 
-				"playlist name" : name
-			} :
-			[
-				{
-					"track uri" : trackUri,
-					"position" : position
-				}, ...
-			], ...
-		}
-	}
-
-class Track
-	artists = []
-	name = ""
-	playlists = [Playlist]
-	
-class Playlist
-	tracks = []
-
-Map<Tuple, Map<Tuple, List<Map<String, String>>>>
-
-# second variant (current one)
-duplicates = 
+tracks = 
 	{
 		(trackName1, [artist1, artist2, ...]) : 
 		{
-			(playlistId, playlistName) : # (track_uri, [positions])
+			(playlistId1, playlistName1) : # (track_uri, [positions])
 			[
 				{
 					"track uri" : trackUri,
@@ -50,7 +15,7 @@ duplicates =
 					"position" : position
 				}, ...
 			], ...
-			(playlistId, playlistName) :
+			(playlistId2, playlistName2) :
 			[
 				{
 					"track uri" : trackUri,

@@ -4,9 +4,9 @@ import re
 import sys
 import urllib
 
-token = "ENTER ACCESS TOKEN HERE"
-username = 'ENTER YOUR SPOTIFY USERNAME HERE'  # Change this to your username
-username = urllib.pathname2url(username)
+token = "ENTER ACCESS TOKEN HERE"   
+username = 'ENTER YOUR SPOTIFY USERNAME HERE'   # Change this
+username = urllib.pathname2url(username)        # Do not change this
 sp = spotipy.Spotify(auth=token)
 
 def main():
@@ -45,32 +45,26 @@ def get_user_tracks():
         playlist_tracks = sp.user_playlist_tracks(username, playlist["id"])["items"]
         
         for index, track_item in list(enumerate(playlist_tracks)):
-            # the spotipy API can't handle local track uri:s
+            # the spotipy API can't handle local track uri:s, so skip local tracks
             if track_item["is_local"]:  
                 continue
             
             track = track_item["track"]
-            track_name = track["name"]
+            track_name = track["name"].encode('utf-8')
             track_uri = track["uri"]
             
             track_artists = []
             for artist in track["artists"]:
                 track_artists.append(artist["name"].encode('utf-8'))
             
-            track_key = (track_name.encode('utf-8'), tuple(track_artists))
+            track_key = (track_name, tuple(track_artists))
             playlist_key = (playlist["id"], playlist["name"].encode('utf-8'))
             track_data = {"uri" : track_uri, "position" : index}
             
-            if tracks.has_key(track_key):
-                track_playlists = tracks[track_key]
-                
-                if track_playlists.has_key(playlist_key):
-                    track_playlists[playlist_key].append(track_data)
-                else:
-                    track_playlists[playlist_key] = [track_data]
-            else:
-                tracks[track_key] = {playlist_key : [track_data]}
-        
+            # Setdefault is used to create a key if it doesn't already exist. See "data_structure.txt"
+            # for an example of how this data structure looks.
+            playlists = tracks.setdefault(track_key, {playlist_key : []}).setdefault(playlist_key, []).append(track_data)
+            
     return tracks
 
 def get_duplicates(tracks):
@@ -100,7 +94,7 @@ def print_duplicates(duplicates):
         duplicates_count = count_duplicates(playlists)
         artists = ', '.join(map(str, track[1]))
                 
-        print "{0} {1} by {2} (Total occurences: {3})".format(track_nr, track[0], artists, duplicates_count)
+        print "{0} \"{1}\" by \"{2}\" (Total occurences: {3})".format(track_nr, track[0], artists, duplicates_count)
         
         for playlist in playlists:
             message = "{0} (count: {1})".format(playlist[1], len(playlists[playlist]))
